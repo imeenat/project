@@ -1,0 +1,94 @@
+/* Style for header */
+header {
+	background-color: #001f14;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style for navigation bar */
+nav {
+	background-color: #002f21;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #00462b;
+}
+
+/* Style for main content */
+main {
+	padding: 20px;
+	background-image: linear-gradient(to bottom right, #052923, #a5d9c7);
+	color: #fff;
+}
+
+h2 {
+	color: #fff;
+}
+
+form {
+	display: inline-block;
+	border: 1px solid #fff;
+	padding: 20px;
+	background-color: #002f21;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	background-color: #001f14;
+	color: #fff;
+}
+
+button[type="submit"] {
+	background-color: #00462b;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #006e49;
+}
+
+/* Style for footer */
+footer {
+	background-color: #001f14;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+

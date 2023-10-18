@@ -1,0 +1,126 @@
+/* Fund Wallet Page Styles */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    /* width: 50%; */
+  /* } */
+  
+  /* .container {
+    width: 100vw;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  } */
+   
+
+
+  /* Colors */
+  body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+  }
+
+  .container{
+      width: 100%;
+      /* max-width: 240px; */
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content:center;
+  }
+  
+  h1 {
+      color: #333;
+      text-align: center;
+  }
+  
+  .form-group label {
+      color: #555;
+      font-weight: bold;
+  }
+  
+  .form-group input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+  }
+  
+  .form-submit button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+  }
+  
+  .form-submit button:hover {
+      background-color: #45a049;
+  }
+
+  button{
+      width:109%;
+      margin-top: 10px;
+  }
+
+
+  p.error-message {
+    color: red;
+  }
+  
+  p.success-message {
+    color: green;
+  }
+  

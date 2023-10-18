@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Form</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <form action="index.html" method="get">
+            <div class="course">
+                <input type="text" placeholder="Enter a course">
+                <select name="" id="add">
+                    <option value="core">Core</option>
+                    <option value="elective">Elective</option>
+                </select>
+
+            </div>
+            <button width="22px" height="22px">+</button>
+
+        </form>
+    </div>
+    
+</body>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("input").hide();
+        });
+    });
+
+
+</script>
+</html>
